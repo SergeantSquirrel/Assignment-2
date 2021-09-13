@@ -1,1 +1,1 @@
-# Assignment-2
+The css folder was taken and modified from https://github.com/thepuskar/Personal-Portfolio-v1
