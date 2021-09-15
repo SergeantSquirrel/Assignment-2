@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<!-- this is where machine learning report will be -->
-
 <html>
+
 <head>
-<title>Machine Learning Report</title>
-<!-- insert CSS here -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Free Bulma template</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/report.css">
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
 </head>
+
 <body>
-<header>
-<h1>1 Machine Learning</h1>
-</header>
-<main>
-<h2>1.1 Introduction</h2>
+  <!-- START NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="home.html">
+          <img src="../images/logo.jpg" alt="Logo">
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+        </span>
+      </div>
+      <div class="brand-name">
+        <a href="/" class="logo">Vibing</a>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item is-active" href="index.html">
+            Home
+          </a>
+          <a class="navbar-item" href="profile.html">
+            Profile
+          </a>
+          <a class="navbar-item">
+            Job
+          </a>
+          <a class="navbar-item" href="tools.html">
+            Tools
+          </a>
+          <a class="navbar-item">
+            Data
+          </a>
+          <a class="navbar-item">
+            Work
+          </a>
+          <a class="navbar-item" href="tech.html">
+            Tech
+          </a>
+          <a class="navbar-item">
+            Idea
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+  <section class="hero is-info is-medium is-bold">
+    <div class="hero-body-ml">
+    </div>
+  </section>
+
+<div class="tab-pane is-active" id="pane-2">
+  <div class="content">
+    <h2>1.1 Introduction</h2>
 
 <p>Machine learning is an evolving branch of computational algorithms that are designed to emulate human intelligence by learning from the surrounding environment (El Naqa I. et al. 2015).
   It is generally referred to as the most popular technologies in the fourth industrial revolution and usually enables systems to enhance and learn from experience automatically without being
@@ -19,7 +78,7 @@
 
   <p>In general, the effectiveness and the efficiency of a machine learning solution depend on the performance of the learning algorithms and the characteristics and nature of data.
     There are various forms of data such as structured, semi-structured, or unstructured (Han J., Pei J. & Kamber M. 2011). Different types of machine learning techniques are used to analyse such
-    data in a particular problem domain, and to extract the useful knowledge or insights from the data to develop real-world intelligent applications according to their learning capabilities.</p>
+    data in a particular problem domain, and to extract the useful knowledge or insights from the data to develop real-world intelligent applications according to their learning capabilities.</p><br>
 
   <h2>1.2 Algorithms, Techniques and Data Structures</h2>
 <p>Machine Learning algorithms are mainly divided into four categories: Supervised learning, Unsupervised learning, Semi-supervised learning, and Reinforcement learning.</p>
@@ -30,7 +89,7 @@
 <li>Semi-supervised learning can be defined as a hybridization of the above-mentioned supervised and unsupervised methods, as it operates on both labelled and unlabelled data(Han J., Pei J. & Kamber M. 2011). </li>
 <li>Reinforcement learning enables software agents and machines to automatically evaluate the optimal behaviour in a particular context or environment to improve its efficiency (Kaelbling L.P., Littman M.L. & Moore A.W. 1996).</li>
 </ul>
-
+<br>
 
 
    <h2>1.3 Application Areas</h2>
@@ -43,9 +102,9 @@
 <li>Healthcare: Machine learning can help to solve diagnostic and prognostic problems in a variety of medical domains, such as disease prediction, medical knowledge extraction,
   detecting regularities in data, patient management, etc. (Fatima M. & Pasha M. 2017). For instance, learning techniques can be used to tackle pandemics by classifying high risk patients,
   mortality rate, outbreak prediction, and ideal treatment which contribute to early responses.</li>
-</ul>
+</ul><br>
 
-<h2>Future Trends</h2>
+<h2>1.4 Future Trends</h2>
 <p>Machine learning development is challenging even for experienced researchers due to its complexity and the need of proper evaluation in order to achieve accurate results.
   Indeed Arbabshirani et al. showed in a recent review of ML studies in the area of neuroimaging that 73% of studies employed a single machine (namely the Support Vector Machine) and
   almost no study optimized hyperparameters even for that single machine. This indicates that no machine learning algorithm will overall perform better than any other without further knowledge
@@ -58,7 +117,7 @@
     is an essential element to increase spectral efficiency in 5G by exploiting the spatial degrees of freedom of multiplexing messages for several users in the same frequency, or to focus
     the radiated signal toward intended receivers to minimize intra- and inter-cell interference (F. Rusek et al. 2013). Contributions of ML in MIMO technology includes channel estimation and
     direction of arrival (DOA) estimation by using deep neural networks (DNN) to learn the statistics of the wireless channel and the spatial structures in the angle domain (H. Huang et al. 2018).
-    Furthermore, ML can contribute to MIMO through the classification of the channel state information (CSI) to select the optimal antenna indices using supervised learning.</p>
+    Furthermore, ML can contribute to MIMO through the classification of the channel state information (CSI) to select the optimal antenna indices using supervised learning.</p><br>
 
     <h2>2.1 Social Impact</h2>
     <p>Machine learning is an important component of the growing field of data science. Algorithms are trained to make predictions or classifications, uncovering key insights within data
@@ -66,7 +125,7 @@
       The market demand for data scientists will increase as big data continues to grow and expand, requiring them to identify the most relevant business questions and eventually the data
       to answer them. However, implementing machine learning within businesses has indeed raised many ethical concerns surrounding AI technologies. One clear example is it leads to data
       privacy issues. As machine learning involves collecting and analysing a large dataset, it can pose serious negative consequences in leaking personal information without proper measurements
-      which leads to social crimes such as identity theft.</p>
+      which leads to social crimes such as identity theft.</p><br>
 
   <h2>2.2 Impact on Employment and job</h2>
   <p>Any form of technological development, and in particular digitalisation, has major implications for labour markets. Assessing its impact will be crucial for developing policies that promote
@@ -76,13 +135,13 @@
      machine learning technologies ought to outperform human brain power in those sectors. On the other hand, despite machine learning being reframed as causing job loss, it is undeniable
      that the market demand for specific job roles shifts with the introduction of disruptive and new technology. For example, the introduction of machine learning in language translating led to
      a decline in interpreter jobs, but new industries also emerged, with a net positive impact on employment. The manufactory of the new technology devices industry itself grew fast, creating
-     many new jobs along the way.</p>
+     many new jobs along the way.</p><br>
 
     <h2>3 Expectations of Contribution in Daily Life</h2>
     <p>One of the most notable impacts of machine learning on my daily life will be contributing to personalized digital media. In terms of personalization, most legacy media are currently
       testing or launching recommender systems which collect all the past behaviour, interaction and web searches in order to tailor the ideal experience for us (Ignatidou S. 2019).</p>
 
-      <p>From notifications that we receive from social media apps (Facebook, Instagram, Twitter), feeds that we see on the timeline, recommendations on video streaming apps (Youtube, Netflix), 
+      <p>From notifications that we receive from social media apps (Facebook, Instagram, Twitter), feeds that we see on the timeline, recommendations on video streaming apps (Youtube, Netflix),
         and pre-created playlists on music streaming services such as Spotify, machine learning continues to reward me with a better online experience by increasing efficiency while saving cost and
         time.</p>
 
@@ -97,7 +156,18 @@
       <p>Besides that, machine learning is the future of every business. My parents own a retail business and the business profit highly relies on statistics and data.
         Machine learning enables an analysis of a massive quantity of data and can provide a faster and more accurate result that can help in identifying profitable opportunities
         and dangerous risks. It cuts down labour, cost and time needed to collect and analyse marketing data which means more time can be spent with family.</p>
-  </main>
-</body>
+</div>
+<a class="button is-small is-info is-outlined" href="tech.html">
+    Back
+</a>
+</div>
 
-</html>
+
+                  <section class="copyright">
+                    <div class="container">
+                      <p>© <span id="year"></span> | Designed and Developed based on <a href="https://github.com/BulmaTemplates/bulma-templates">Bulma CSS template</a>. | All rights reserved.</p>
+                    </div>
+                  </section>
+
+                </body>
+                </html>

@@ -1,0 +1,41 @@
+.hero-body-tools
+{background-image: url("../images/github.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.brand-name a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  position: relative;
+  font-family: 'Kaushan Script', sans-serif;
+  top:12px;
+  left:-5px;
+}
+
+.navbar.is-white {
+  background: #F0F2F4;
+}
+
+.navbar-brand .brand-text {
+  font-size: 1.11rem;
+  font-weight: bold;
+}
+
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+
+
+
+.image img{
+
+  max-width: 100%;
+  height: 300px;
+
+}
