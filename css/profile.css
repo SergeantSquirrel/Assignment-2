@@ -2,7 +2,7 @@
 html,body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 14px;
-  background: #FFFFFF;
+  background: rgb(236, 241, 240);
 }
 
 .brand-name a {
@@ -32,100 +32,63 @@ background-repeat: no-repeat;
 height: 500px;
 }
 
-.articles {
-  margin: 5rem 100px;
-  margin-top: -200px;
-}
-
-.articles .content p {
-    line-height: 1.9;
-    margin: 15px 0;
-}
-
-.author-image {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -30px;
-    border: 3px solid #ccc;
-    border-radius: 50%;
-}
-
-.media-center {
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.media-content {
-  margin-top: 3rem;
-}
-
-.article, .promo-block {
-  margin-top: 10rem;
-}
-
-div.column.is-8:first-child {
-  padding-top: 0;
-  margin-top: 0;
-}
-
-.article-title {
-  font-size: 2rem;
-  font-weight: lighter;
-  line-height: 2;
-}
-
-.article-subtitle {
-  color: #909AA0;
-  margin-bottom: 3rem;
-}
-
-.article-body {
-  line-height: 1.4;
-  margin: 0 6rem;
-}
-
-.promo-block .container {
-  margin: 1rem 5rem;
-}
-
-footer {
-    padding: 70px 15px;
-    background-color: #01143e;
-}
-
-.footer-title {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    font-size: 25px;
-    font-family: -apple-system, cursive;
-    color: rgb(236, 241, 250);
-    font-weight: 700;
-}
-
-.social-link {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.social-link a {
-    color: #999999;
-    display: inline-block;
-    margin: -10px 12px;
-    transition: all 0.5s ease;
-}
-
-.social-link a:hover {
-    color: rgb(236, 241, 250)
-}
 
 .header-title {
   font-family: 'Kaushan Script', sans-serif;
   font-size: 5rem;
   color: whitesmoke;
+}
+
+.features {
+  padding-top: -10rem;
+  padding-bottom: 5rem;
+}
+
+.card-content .content {
+  font-size: 14px;
+  margin: 2rem 1rem;
+
+}
+.card-content .content h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-content .content h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+  min-height: 1150px;
+}
+
+.is-shady {
+animation: flyintoright .4s backwards;
+background: #fff;
+box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+border-radius: 4px;
+display: inline-block;
+margin: 10px;
+position: relative;
+transition: all .2s ease-in-out;
+}
+
+.is-shady:hover {
+box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+}
+
+.media-content  p{
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+
+}
+.media-content{
+  margin-top: 50px;
+  margin-bottom: : 200px;
 }
