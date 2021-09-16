@@ -25,17 +25,19 @@ height: 500px;
   font-weight: bold;
 }
 
-
 .portfolio-container .card {
   margin-bottom: 2em;
 }
 
-
-
-
 .image img{
-
   max-width: 100%;
   height: 300px;
+}
 
+.card-footer a{
+  color: black;
+}
+
+.card-footer .icon{
+  margin-bottom: -3px
 }
