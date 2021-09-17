@@ -37,6 +37,8 @@ height: 500px;
   font-family: 'Kaushan Script', sans-serif;
   font-size: 5rem;
   color: whitesmoke;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+  line-height:3;
 }
 
 .features {
@@ -81,11 +83,11 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
 
 .media-content  p{
-  color: white;
-  font-weight: 800;
-  font-size: 4rem;
-  font-family: 'Nunito Sans', sans-serif;
-  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+  color: black;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 1px 1px 1px #cfcbc9, 0px 2px 4px #867e79;
 
 }
 .media-content{
