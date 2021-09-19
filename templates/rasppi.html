@@ -57,12 +57,6 @@
           <a class="navbar-item" href="idea.html">
             Idea
           </a>
-          <a class="navbar-item" href="reflection.html">
-            Reflection
-          </a>
-          <a class="navbar-item" href="dynamics.html">
-            Dynamics
-          </a>
         </div>
       </div>
     </div>
@@ -79,47 +73,51 @@
     <h1>Single Board Computers & Single Board Microcontrollers</h1>
     <p><span class="tag is-primary">Author</span> Vincent Lu<p>
     <br>
-    <h2>What does it do?</h2>
-<p>The function of single board computers is to provide a device with more powerful, more energy-efficient hardware and a smaller form factor. Offering open-source support to run variants of Linux.
-  Single board computers function as media centres, file servers, retro games consoles, routers, and network-level ad-blockers, for starters. There are many more purposes. Single board computers are
-  important as they are devices to nurture schoolchildren in programming worldwide and thereby, creating the next generation of developers. The similarities between all single board computers are that
-  they all contain GPIO pins, standing for general purpose input/output pins which allow the board to communicate with other devices,
-  this is instrumental to the versatility of a single board computer.</p>
+    <h2>Single Board Computers</h2>
+<p>The function of single-board computers is to provide a device with powerful, yet energy-efficient hardware in a smaller form factor. Single-board Computers are supported by open source operating systems which are variants of linux.Single-board computers function as media centers, file servers, retro games consoles, routers, and network-level ad-blockers, for starters. There are many more purposes.</p>
+<p>The similarities between all single-board computers are that they all contain General-purpose input/output (GPIO) pins, standing for general purpose input/output pins which allow the board to communicate with other devices, this is instrumental to the versatility of a single board computer. </p>
+<p>Other similarities shared by the majority of single-board computers are that many have  RAM, a GPU, CPU, onboard power supply , serial ports, audio/video output and input, a storage card slot, peripheral interfaces, USB ports and networking capabilities all into a single board as the name suggests. </p>
+<p>Single-board computers can often be used headless, with only a power source, operating system installed and storage required for a remote connection via SSH. For additional capabilities, a variety of motion, proximity and environmental modules, various HATs (Hardware Attached on Top) that are placed atop the single-board computer , utilising the GPIO header. The GPIO header also may be used to connect and power generic electronic components , usually with the addition of a breadboard and/or passive/electronic components such as LEDs , transistors , capacitors and resistors. With a single-board computer , hardware is controlled via GPIO pins with a GPIO access library with a  programming language such as C or C++ to define a header file or Python for docstrings. With a header or python file , the GPIO header is also able to receive and read hardware data.</p>
+<p>Besides physical computing , as described before , single-board computers may be used for their software and networking capabilities which software can be installed via command line such as Pi-hole , an ad-blocker or software can also be written using an integrated development environment (IDE) , which can also be used to write the docstrings and header files that hardware interacts with.</p>
+<p>The most popular series of single-board computers currently is the Raspberry pi , which the Model B estimated to be 40 times faster than an Arduino Uno in clock speed and contain 128,000 times more ram (Orsini , L 2014). The Raspberry Pi series, like other single-board computers, contains a GPIO header , networking capabilities , Linux OS support , open-source GPIO access libraries  and HATs.</p><br>
+<p>The open-source GPIO access libraries and Operating systems nurture hobbyists and schoolchildren in programming worldwide , bridging the gap between hard and software , thereby creating the next generation of developers.</p>
+  
 
-  <p>The function of a single-board microcontroller is to provide a circuit medium to facilitate the operation of a single program for repetitive tasks. A basic single-board microcontroller
-    integrates the following: CPU, RAM,storage onto a single chip, digital input/output circuits, serial ports, analogue to digital Converter, digital to analogue converter, clock generator
-    and on-board power supply. With a single-board microcontroller, electronics are controlled by reading inputs and converting them into outputs. Software applications in tandem with programming
-    languages are used to write code that is stored and runned by the microcontroller of a single-board microcontroller. The advantages of a single-board microcontroller in comparison to a standalone
-    microcontroller is that proprietary cables are needed, and universal USB cables are usually used, connections to the input and output headers also use readily available jumper leads.  Single-board
-    microcontroller controllers, usually being inexpensive and open-source, makes it very accessible to many people in the world, thus having a wide number of tutorials and code libraries. The most
-    popular single-board microcontroller platform is the Arduino platform which has open-source design with various manufacturers offering low-cost variants. Some common projects using the Arduino and
-    Arduino compatible single-board microcontrollers are RFID systems, Robots, Motor Controller, Humidity sensor and Alarm clocks. Some of these projects utilise ‘shields’ which are modules that
-    directly plug in to the headers of an Arduino offering extra capabilities such as networking, extra storage, displays, motor drivers and much more. Various sensors are also available for Arduino
-    boards such as motion sensors, proximity sensors, environmental sensors and more. These input and output devices make low-cost projects and prototypes possible.</p><br>
+  <h2>Single Board Microcontrollers</h2>
+  <p>Another important type of development board with overlapping similarities are single-board microcontrollers. The function of a single-board microcontroller is to provide a circuit medium to facilitate the operation of a single program for repetitive tasks. A basic single-board microcontroller integrates the following: CPU, RAM,storage onto a single chip , digital input/output circuits , serial ports , analog to digital Converter , digital to analog converter ,clock generator and on-board power supply.</p>
 
-  <h2>How can one choose between a single board computer and a single board microcontroller</h2>
-  <p>Both Single Board Computers & Single-board microcontrollers share the similarity in both being typically inexpensive, small form factor, low power, compatible with various input/output
-    add ons and availability of open-source hardware and software. Single-board microcontrollers such as the Arduino have wider support and range of shields (add ons) while Single Board Computers
-    typically have USB ports and video output as standard.</p>
+  <p>With a single-board microcontroller , electronics are controlled by reading inputs and converting them into outputs. Software applications in tandem with programming languages are used to write code that is stored and runned by the microcontroller of a single-board microcontroller. The advantages of a single-board microcontroller in comparison to a stand alone microcontroller is that proprietary cables are needed and universal USB cables are usually used , connections to the input and output headers also use readily available jumper leads.</p>
+<p>Single-board microcontroller controllers, usually being inexpensive and open-source, making it very accessible to many people in the world , thus having a wide amount of tutorials and code libraries. The most popular single-board microcontroller platform is the Arduino platform which has open source design with various manufacturers offering low cost variants.</p>
+<p> Some common projects using the Arduino and Arduino compatible single-board microcontrollers are RFID systems , Robots , Motor Controller , Humidity sensor and Alarm clocks. Some of these projects  utilise ‘shields’ which are modules that directly plug in to the headers of an arduino offering extra capabilities such as networking , extra storage , displays , motor drivers and much more. Various sensors are also available for Arduino boards such as motion sensors , proximity sensors , environmental sensors and more. These input and output devices make low cost projects and prototypes possible.</p><br>
 
-  <p>The determining factor between the choice of two comes down to usage, the lower clock speed microcontroller of a single-board microcontroller is more useful as stated before, for
-    undemanding repetitive tasks. A Single Board Computer makes more sense with its higher clock speed microprocessor is more useful for simultaneous tasks, requiring more computational throughput.</p>
+  <h2>So how can one choose between a Single Board Computers & a Single-board microcontroller?</h2>
+  <p>Both Single Board Computers & Single-board microcontrollers share the similarity in both being typically  inexpensive , small form factor , low power , compatible with various input/output add ons and availability of open source hardware and software. Single-board microcontrollers such as the arduino have wider support and range of shields (add ons) while Single Board Computers typically have USB ports and video output as standard.</p>
 
-  <p>Single Board Computers & Single-board microcontrollers can also be used together, linked via serial communication.
-    The Single-board microcontroller can be used for reading inputs and controlling outputs while the Single Board Computer can facilitate more computationally intensive tasks
-    such as running a program to process the input data from the Single-board microcontroller in output commands Single-board microcontroller.</p><br>
-
-  <h2>What is the likely impact?</h2>
-  <p>While there are no significant impacts of Single Board Computers & Single-board microcontrollers for the future of technology, there are positive implications for now. Single Board Computers
-    & Single-board microcontrollers being inexpensive and open-source have allowed for a large online community to constantly improve hardware and software with no limitation, allowing for the
-    countless add ons such as sensors and shields. With its accessibility, young people from all over the world are engaged and empowered through computing, being a replacement for the programmable
-    computing devices of yesteryear. Experimentation of these devices have driven further the improvement of constituents of IoT such as smart homes. To summarise, these devices have enriched
-    technology for many while providing a basic device to bridge the gaps in computing skills for those without.</p>
-
-  <p>As for me and most people, Single Board Computers & Single-board microcontrollers increase exposure to the field of IoT, one that is growing at a rapid pace to have a predicted 75
-    billion IoT devices in 2025. IoT is gaining importance in workplaces and homes with automation, Single Board Computers & Single-board microcontrollers are just a microcosm of this,
-    helping one gain the understanding behind it.</p><br><br>
-    <div class="reference">
+  <p>The determining factor between the choice of two comes down to usage , the lower clock speed microcontroller of a  single-board microcontroller is more useful as stated before , for undemanding repetitive tasks. A Single Board Computer makes more sense with it’s higher clock speed microprocessor is more useful for simultaneous tasks , requiring more computational throughput.</p>
+  <p>Single Board Computers & Single-board microcontrollers can also be used together , linked via serial communication. The Single-board microcontroller can be used for reading inputs and controlling outputs while the Single Board Computer can facilitate more computationally intensive tasks such as running a program to process the input data from the Single-board microcontroller in output commands Single-board microcontroller.</p><br>
+   
+   <h2>What is the likely impact?</h2>
+   <p>While there are no significant impacts of Single Board Computers & Single-board microcontrollers for the future of technology , there are positive implications for now. Single Board Computers & Single-board microcontrollers being inexpensive and open-source have allowed for a large online community to constantly improve hardware and software with no limitation , allowing for the countless add ons such as sensors and shields. With its accessibility , young people from all over the world are engaged and empowered through computing ,being a replacement for the programmable computing devices of yesteryear. Experimentation of these devices have driven further the improvement of constituents of IoT such as smart homes. To summarise , these devices have enriched technology for many while providing a basic device to bridge the gaps in computing skills for those without.</p><br>
+   
+   <h2>Impacts on businesses </h2>
+      <p>For commercial usage , the most popular single-board computers & single-board microcontrollers may not be viable due to software licencing (White , E 2017). </p>
+	  <p>The most popular single-board microcontroller , namely the Arduino, has its library code under LGPL licencing. Thus , any LGPL licensed code modified must be publicly released as source. Commercial products with circuits derived from the open-source design of Arduino boards also need to release their designs, dictated by CC-BY-SA licensing (Arduino ,2021). 
+. While the requirements of LGPL licensing of Arduino’s core files and libraries do not prohibit the sale of derived software or in products including it (Arduino).The constraint of releasing designs and modified code as source is unappealing , losing the valuable quality of having proprietary hardware and software.</p>
+	  <p>Likewise with single board computers , software licencing can also be prohibitive for commercial usage in the case of mass production. The most popular single board computer namely , the Raspberry Pi has closed source hardware , making production of a derived design not possible without required licencing (Molloy 2016).The Broadcom bootloader  used in the Raspberry Pi also has a licence stating it is permitted only for , ‘… the purposes of developing for, running or using a Raspberry Pi device, or authorised derivative  device manufactured via the element14 Raspberry Pi Customization Service’ (ghollingworth 2019, lines. 9-11).</p>
+	  <p>Even though these small computing devices may not be viable in mass production , they are still useful as a development tool for prototyping designs as proof of concept before mass production. </p><br>
+   <h2>Social & Socioeconomic Implications:</h2>
+      <p>Murat Ali, et al (2013 , p.103) state that ‘the recent development of the Raspberry Pi mini computer has provided new opportunities to enhance tools for education. The low cost means that it could be a viable option to develop solutions for education sectors in developing countries’. The bounds of physical computing for disadvantaged students ranging from secondary education to even university levels can be transgressed through the low cost , open-source and modular nature of the Raspberry Pi. </p>
+	  <p>The modular nature of the Raspberry Pi ensures that faulty components are able to be replaced with generic and readily available components without the use of proprietary tools .The power consumption of the Raspberry Pi is measured to be 5.5 watts , an off grid photovoltaic system with an output of 14 watts in the sunny climate of Uganda is estimated to provide an output of 14-60 watt hours per day allowing for 2.5-11 hours of usage per day or 9 hours of usage from a fully charged 50 watt hour external battery when weather conditions are sub optimal (Murat Ali, et al , 2013).</p>
+	  <p>Intuitive and open-source software is widely available for the Raspberry Pi. For unfamiliar users of computers , a windowed desktop environment is available with many Linux distributions and free knowledge bases can be accessed through a browser on the chosen operating system such as Raspbian for general education while programming education can be initiated with  Scratch , a programming language with a visual and user-friendly interface that teaches the basics of programming to precede Python that students can learn in order to interact with the GPIO headers at a higher level (Murat Ali, et al , 2013).</p>
+	  <p>With the software and hardware of the Raspberry Pi suiting impoverished communities in cost , ease of use and accessibility , the Raspberry Pi is an effective tool in the education of the most needy as well as being a medium in alleviating economic equality as , ‘education remains the key determinant of income inequality’ (Ssewanyana & Kasirye 2012, abstract).</p>
+	  <p>Single-Board Microcontrollers being just as important as Single-board Computers in physical computing , particularly in the open-source and maker movement, unfortunately are not able to serve as a device for general education for impoverished communities due to the lack of capability of running a windowed desktop environment. As discussed above , single-board microcontrollers such as the Arduino series and programmable robot kits , incorporating a microcontroller such as the Makey Makey serve as a medium to nurture schoolchildren to explore programming and physical computing in an interdisciplinary approach of Science, Technology, Engineering, and Mathematics (STEM). The findings from a study consisting of 42 tenth grade students revealed that, ‘one-sample t-tests in each dimension of psychomotor performance all reached a significant level’(Chang & Chen 2020 , p. 1).</p><br>
+	  
+   
+   <h2>How will this affect you? </h2>
+      <p>As for me and the majority of people , Single Board Computers & Single-board microcontrollers serve as a medium to explore physical computing , particularly in the open-source and maker movement as discussed above , achieved by having a low cost ,  a low learning curve and support for a wide range of hardware attachments. Single Board Computers & Single-board microcontrollers are a microcosm of computing, helping one gain the understanding behind it.</p>
+   
+   
+   <div class="reference">
         <h3><strong>References</strong></h3>
       </div>
       <ol>
