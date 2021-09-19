@@ -54,6 +54,29 @@ background-repeat: no-repeat;
 height: 500px;
 }
 
+.hero-body-ref
+{background-image: url("../images/reflection.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-meeting
+{background-image: url("../images/meeting.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
 .reference{
   background: rgb(236, 241, 240);
+}
+
+.reflection{
+  background: rgb(236, 241, 240);
+  box-shadow:  0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
